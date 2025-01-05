@@ -27,3 +27,71 @@ voice-assistant/
 ├── requirements.txt             # Dependencies
 ├── README.md                    # Project documentation
 └── run.py                       # Entry point
+```
+
+---
+
+## Installation
+
+### Prerequisites
+- Python 3.8 or later
+- Microphone-enabled device (laptop or phone)
+- OpenAI API Key ([Get it here](https://platform.openai.com/signup/))
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/voice-assistant-gpt.git
+   cd voice-assistant-gpt
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set your OpenAI API Key:
+   Edit `app/chatgpt_api.py` and replace `"your_openai_api_key"` with your OpenAI API key.
+
+4. Run the assistant:
+   ```bash
+   python run.py
+   ```
+
+---
+
+## Usage
+1. Speak into the microphone when prompted.
+2. The assistant will transcribe your speech, process it using ChatGPT, and respond via speech.
+
+---
+
+## Optional: Device Communication
+To interact with the assistant from a phone:
+1. Start the Flask server:
+   ```bash
+   python app/device_communication.py
+   ```
+2. Use a tool like Termux or any HTTP client to send audio files to the server.
+
+---
+
+## Future Enhancements
+- Add offline speech recognition (e.g., Vosk).
+- Improve natural conversation flow with memory/context.
+- Convert the project into a mobile app.
+
+---
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+## Acknowledgments
+- [OpenAI](https://openai.com) for ChatGPT API
+- [SpeechRecognition Library](https://pypi.org/project/SpeechRecognition/)
+- [pyttsx3](https://pypi.org/project/pyttsx3/)
+```
+
+---
