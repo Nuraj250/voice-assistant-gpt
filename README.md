@@ -93,5 +93,3 @@ This project is licensed under the MIT License.
 - [SpeechRecognition Library](https://pypi.org/project/SpeechRecognition/)
 - [pyttsx3](https://pypi.org/project/pyttsx3/)
 ```
-
----
