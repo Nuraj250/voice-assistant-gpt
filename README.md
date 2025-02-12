@@ -1,4 +1,4 @@
-# Voice Assistant with ChatGPT
+# Voice Assistant with ChatGPT   
 
 A voice-enabled AI assistant that uses speech recognition, OpenAI's ChatGPT for responses, and text-to-speech synthesis to communicate. It can run on both a laptop and phone for seamless interaction.
 
