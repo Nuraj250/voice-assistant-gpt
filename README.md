@@ -41,7 +41,7 @@ voice-assistant/
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/voice-assistant-gpt.git
+   git clone https://github.com/Nuraj250/voice-assistant-gpt.git
    cd voice-assistant-gpt
    ```
 
